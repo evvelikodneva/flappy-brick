@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.bird{
+    height: 14vh;
+    width: 6vw;
+    /* border-radius: 15vh; */
+    position: fixed;
+    background-color: black;
+    right: 80vw;
+    top: 43vh;
+    transition: all 100ms linear;
+}
+.upper-block{
+    position: fixed;
+    right: -10vw;
+    top: 0;
+    background-color: red;
+    height: 28vh;
+    width: 10vw;
+    transition: right 100ms linear;
+}
+.down-block{
+    position: fixed;
+    right: -10vw;
+    bottom: 0;
+    background-color: red;
+    height: 39vh;
+    width: 10vw;
+    transition: right 100ms linear;
+}
